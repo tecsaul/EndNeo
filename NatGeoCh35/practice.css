@@ -1,0 +1,19 @@
+.flex-container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: 250px;
+background-color: black
+}
+.flex-element{
+    background-color: blue;
+    border: 1px solid red;
+    padding: 10px;
+    height: 50px;
+}
+.flex-second-level1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
